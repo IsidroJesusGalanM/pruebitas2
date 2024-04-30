@@ -14,6 +14,10 @@
 		DCA091FC2BE16F450070A235 /* pruebitas2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA091FB2BE16F450070A235 /* pruebitas2Tests.swift */; };
 		DCA092062BE16F450070A235 /* pruebitas2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA092052BE16F450070A235 /* pruebitas2UITests.swift */; };
 		DCA092082BE16F450070A235 /* pruebitas2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA092072BE16F450070A235 /* pruebitas2UITestsLaunchTests.swift */; };
+		DCA092152BE177780070A235 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA092142BE177780070A235 /* home.swift */; };
+		DCA092172BE177B50070A235 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA092162BE177B50070A235 /* search.swift */; };
+		DCA092192BE177F30070A235 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA092182BE177F30070A235 /* profile.swift */; };
+		DCA0921B2BE1781A0070A235 /* saved.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0921A2BE1781A0070A235 /* saved.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		DCA092012BE16F450070A235 /* pruebitas2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebitas2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA092052BE16F450070A235 /* pruebitas2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebitas2UITests.swift; sourceTree = "<group>"; };
 		DCA092072BE16F450070A235 /* pruebitas2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebitas2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCA092142BE177780070A235 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		DCA092162BE177B50070A235 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		DCA092182BE177F30070A235 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		DCA0921A2BE1781A0070A235 /* saved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saved.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				DCA091EA2BE16F430070A235 /* pruebitas2App.swift */,
+				DCA092142BE177780070A235 /* home.swift */,
+				DCA092162BE177B50070A235 /* search.swift */,
 				DCA091EC2BE16F430070A235 /* ContentView.swift */,
+				DCA092182BE177F30070A235 /* profile.swift */,
 				DCA091EE2BE16F450070A235 /* Assets.xcassets */,
 				DCA091F02BE16F450070A235 /* Preview Content */,
+				DCA0921A2BE1781A0070A235 /* saved.swift */,
 			);
 			path = pruebitas2;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA092152BE177780070A235 /* home.swift in Sources */,
+				DCA092172BE177B50070A235 /* search.swift in Sources */,
 				DCA091ED2BE16F430070A235 /* ContentView.swift in Sources */,
+				DCA0921B2BE1781A0070A235 /* saved.swift in Sources */,
+				DCA092192BE177F30070A235 /* profile.swift in Sources */,
 				DCA091EB2BE16F430070A235 /* pruebitas2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
